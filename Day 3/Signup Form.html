@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <style>
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Signup Form</h1>
+
+    <form action="">
+        <label for="user_id">User ID</label> <br>
+        <input type="text" maxlength="32"> <br> <br>
+    
+        <label for="password">Password</label> <br>
+        <input type="text" minlength="8" maxlength="32"> <br> <br>
+    
+        <label for="name">Name</label> <br>
+        <input type="text"> <br> <br>
+    
+        <label for="country">Country</label> <br>
+        <input type="text" list="countries" placeholder="Enter a country"> <br> <br>
+    
+        <label for="zip_code">Zip Code</label> <br>
+        <input type="text" pattern="[0-9]{4}" maxlength="4"> <br> <br>
+    
+        <label for="email">Email</label> <br>
+        <input type="text" type="email">
+    </form>
+
+
+    <datalist id="countries">
+        <option value="Algeria"></option>
+        <option value="Angola"></option>
+        <option value="Argentina"></option>
+        <option value="Bahamas"></option>
+        <option value="Chile"></option>
+        <option value="Denmark"></option>
+        <option value="Egypt"></option>
+        <option value="Eritrea"></option>
+        <option value="Ethiopia"></option>
+        <option value="Estonia"></option>
+        <option value="Finland"></option>
+        <option value="Ghana"></option>
+        <option value="Hungary"></option>
+        <option value="Ireland"></option>
+        <option value="Jamaica"></option>
+        <option value="Kuwait"></option>
+        <option value="Libya"></option>
+        <option value="Mongolia"></option>
+        <option value="Nigeria"></option>
+        <option value="Oman"></option>
+        <option value="Pakistan"></option>
+        <option value="Qatar"></option>
+        <option value="Russia"></option>
+        <option value="Syria"></option>
+        <option value="Tanzania"></option>
+        <option value="Uganda"></option>
+        <option value="Vietnam"></option>
+        <option value="Yemen"></option>
+        <option value="Zambia"></option>
+    </datalist>
+
+</body>
+</html>

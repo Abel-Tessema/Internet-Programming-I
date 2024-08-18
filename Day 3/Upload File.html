@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload File</title>
+    <style>
+        label {
+            font-weight: bold;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <label for="upload_pdf">Upload File</label> <br />
+      <input type="file" id="upload_pdf" accept=".pdf" /> <br />
+      <br />
+
+      <label for="upload_image">Upload Image</label> <br />
+      <input type="file" id="upload_image" accept=".jpg, .png" /> <br />
+      <br />
+
+      <label for="css_layout_classes">CSS Layout Classes</label> <br />
+      <input type="text" /> <br />
+      <br />
+
+      <h2>Advanced</h2>
+      <br />
+
+      <label for="default_value">Default Value</label> <br />
+      <input type="text" id="default_value" /> <br />
+      <br />
+
+      <label for="field_description">Field Description</label> <br />
+      <textarea name="" id="field_description" cols="30" rows="10"></textarea>
+      <br />
+      <br />
+
+      <label for="visibility">Visibility</label> <br />
+      <select name="" id="visibility">
+        <option value="everyone">Everyone</option>
+        <option value="no_one">No one</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="label_position">Label Position</label> <br />
+      <select name="" id="visibility">
+        <option value="default">Default</option>
+        <option value="top">Top</option>
+        <option value="bottom">Bottom</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="field_key">Field Key</label> <br />
+      <input type="text" id="field_key" /> <br />
+      <br />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

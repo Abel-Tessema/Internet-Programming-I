@@ -1,0 +1,21 @@
+Default value and disable for customer and employee
+Default value for order date and required date, and changeable
+
+User ID <= 32
+password >=8 and <=32
+Country: E : suggests Egypt, Ethiopia, etc.
+Zip code: regex, > 0, 4 digits
+
+Choose file: restrict filetype to image or pdf: attribute-accept
+Add conditional logic -> Submit
+
+
+
+
+
+
+
+
+
+
+Roll number = 19
